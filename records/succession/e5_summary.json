@@ -1,0 +1,78 @@
+{
+ "seeds": 3,
+ "script": "succession/E5.py",
+ "results": {
+  "finetune": {
+   "cifar10": {
+    "ACC_mean": 0.536,
+    "ACC_sd": 0.001,
+    "BWT": -0.48
+   },
+   "cifar100": {
+    "ACC_mean": 0.229,
+    "ACC_sd": 0.006,
+    "BWT": -0.522
+   }
+  },
+  "ewc": {
+   "cifar10": {
+    "ACC_mean": 0.526,
+    "ACC_sd": 0.007,
+    "BWT": -0.492
+   },
+   "cifar100": {
+    "ACC_mean": 0.349,
+    "ACC_sd": 0.013,
+    "BWT": -0.33
+   }
+  },
+  "agem": {
+   "cifar10": {
+    "ACC_mean": 0.773,
+    "ACC_sd": 0.015,
+    "BWT": -0.184
+   },
+   "cifar100": {
+    "ACC_mean": 0.46,
+    "ACC_sd": 0.006,
+    "BWT": -0.259
+   }
+  },
+  "derpp": {
+   "cifar10": {
+    "ACC_mean": 0.851,
+    "ACC_sd": 0.004,
+    "BWT": -0.068
+   },
+   "cifar100": {
+    "ACC_mean": 0.596,
+    "ACC_sd": 0.006,
+    "BWT": -0.071
+   }
+  },
+  "rho_ewc": {
+   "cifar10": {
+    "ACC_mean": 0.569,
+    "ACC_sd": 0.051,
+    "BWT": -0.436
+   },
+   "cifar100": {
+    "ACC_mean": 0.243,
+    "ACC_sd": 0.012,
+    "BWT": -0.501
+   }
+  },
+  "rho_ewc_replay": {
+   "cifar10": {
+    "ACC_mean": 0.815,
+    "ACC_sd": 0.011,
+    "BWT": -0.111
+   },
+   "cifar100": {
+    "ACC_mean": 0.531,
+    "ACC_sd": 0.004,
+    "BWT": -0.117
+   }
+  }
+ }
+}

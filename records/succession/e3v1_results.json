@@ -1,0 +1,166 @@
+{
+ "script": "succession/E3_v1.py",
+ "coexistence_threshold": 0.2,
+ "rows": [
+  {
+   "tA": 0,
+   "tB": 1,
+   "classes": "plane/→bird/c",
+   "rho_pre": 0.104,
+   "forgetting": 0.298,
+   "coexist": 0
+  },
+  {
+   "tA": 0,
+   "tB": 2,
+   "classes": "plane/→deer/d",
+   "rho_pre": 0.1,
+   "forgetting": 0.243,
+   "coexist": 0
+  },
+  {
+   "tA": 0,
+   "tB": 3,
+   "classes": "plane/→frog/h",
+   "rho_pre": -0.095,
+   "forgetting": 0.407,
+   "coexist": 0
+  },
+  {
+   "tA": 0,
+   "tB": 4,
+   "classes": "plane/→ship/t",
+   "rho_pre": 0.278,
+   "forgetting": 0.173,
+   "coexist": 1
+  },
+  {
+   "tA": 1,
+   "tB": 0,
+   "classes": "bird/c→plane/",
+   "rho_pre": 0.146,
+   "forgetting": 0.217,
+   "coexist": 0
+  },
+  {
+   "tA": 1,
+   "tB": 2,
+   "classes": "bird/c→deer/d",
+   "rho_pre": 0.195,
+   "forgetting": 0.193,
+   "coexist": 1
+  },
+  {
+   "tA": 1,
+   "tB": 3,
+   "classes": "bird/c→frog/h",
+   "rho_pre": -0.021,
+   "forgetting": 0.284,
+   "coexist": 0
+  },
+  {
+   "tA": 1,
+   "tB": 4,
+   "classes": "bird/c→ship/t",
+   "rho_pre": 0.072,
+   "forgetting": 0.23,
+   "coexist": 0
+  },
+  {
+   "tA": 2,
+   "tB": 0,
+   "classes": "deer/d→plane/",
+   "rho_pre": 0.119,
+   "forgetting": 0.326,
+   "coexist": 0
+  },
+  {
+   "tA": 2,
+   "tB": 1,
+   "classes": "deer/d→bird/c",
+   "rho_pre": 0.136,
+   "forgetting": 0.202,
+   "coexist": 0
+  },
+  {
+   "tA": 2,
+   "tB": 3,
+   "classes": "deer/d→frog/h",
+   "rho_pre": 0.009,
+   "forgetting": 0.339,
+   "coexist": 0
+  },
+  {
+   "tA": 2,
+   "tB": 4,
+   "classes": "deer/d→ship/t",
+   "rho_pre": 0.141,
+   "forgetting": 0.316,
+   "coexist": 0
+  },
+  {
+   "tA": 3,
+   "tB": 0,
+   "classes": "frog/h→plane/",
+   "rho_pre": 0.037,
+   "forgetting": 0.581,
+   "coexist": 0
+  },
+  {
+   "tA": 3,
+   "tB": 1,
+   "classes": "frog/h→bird/c",
+   "rho_pre": -0.009,
+   "forgetting": 0.455,
+   "coexist": 0
+  },
+  {
+   "tA": 3,
+   "tB": 2,
+   "classes": "frog/h→deer/d",
+   "rho_pre": 0.059,
+   "forgetting": 0.435,
+   "coexist": 0
+  },
+  {
+   "tA": 3,
+   "tB": 4,
+   "classes": "frog/h→ship/t",
+   "rho_pre": 0.026,
+   "forgetting": 0.493,
+   "coexist": 0
+  },
+  {
+   "tA": 4,
+   "tB": 0,
+   "classes": "ship/t→plane/",
+   "rho_pre": 0.298,
+   "forgetting": 0.149,
+   "coexist": 1
+  },
+  {
+   "tA": 4,
+   "tB": 1,
+   "classes": "ship/t→bird/c",
+   "rho_pre": 0.062,
+   "forgetting": 0.354,
+   "coexist": 0
+  },
+  {
+   "tA": 4,
+   "tB": 2,
+   "classes": "ship/t→deer/d",
+   "rho_pre": 0.016,
+   "forgetting": 0.353,
+   "coexist": 0
+  },
+  {
+   "tA": 4,
+   "tB": 3,
+   "classes": "ship/t→frog/h",
+   "rho_pre": 0.063,
+   "forgetting": 0.383,
+   "coexist": 0
+  }
+ ]
+}

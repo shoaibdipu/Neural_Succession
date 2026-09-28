@@ -1,0 +1,42 @@
+{
+ "criteria": {
+  "forgetting_sd": 0.06414490756612458,
+  "identifiable_regime": true,
+  "chosen_sgd_lr": 0.03,
+  "backup_lr_used": false,
+  "feature_median_partial_r_gt_0p10": false,
+  "feature_fraction_significant_gt_half": false,
+  "task_r_ge_0p50": false,
+  "task_permutation_p_le_0p05": false,
+  "task_permutation": {
+   "r_observed": 0.1766117900952332,
+   "p_task_permutation": 0.5416666666666666,
+   "n_permutations": 120,
+   "exact": true,
+   "null_r_mean": -8.326672684688674e-18,
+   "null_r_std": 0.2677451786115687
+  },
+  "loto_positive_slope_folds": 3,
+  "loto_n_folds": 5,
+  "loto_sign_ge_4_of_5": false,
+  "fixed_alpha_median_heldout_R2": -29.211541940373728,
+  "fixed_alpha_median_R2_gt_zero": false,
+  "fixed_alpha_wins_majority": false,
+  "fixed_alpha_wilson_lower": -6.938893903907228e-18,
+  "fixed_alpha_wilson_lower_gt_half": false,
+  "fixed_alpha_wins": 0,
+  "fixed_alpha_n": 60,
+  "shared_resident_checkpoints": true,
+  "task_corollary_pass": false,
+  "lv_global_pass": false
+ },
+ "paths": {
+  "T1": "t1_net_pressure_cifar10_results.json",
+  "R6b": "r6b_fixed_definition4_lv_cifar10_results.json"
+ },
+ "_meta": {
+  "synthetic": false,
+  "experiment": "A1_definition4_competition_lv",
+  "elapsed_s": 5612.755303621292
+ }
+}

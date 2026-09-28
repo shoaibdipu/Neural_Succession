@@ -1,0 +1,1141 @@
+{
+ "rows": [
+  {
+   "seed": 42,
+   "task_a": 0,
+   "task_b": 1,
+   "A": [
+    {
+     "epoch": 0,
+     "diversity": 84.38960266113281,
+     "overlap": 0.1677553392730746,
+     "plasticity": null,
+     "turnover": null
+    },
+    {
+     "epoch": 1,
+     "diversity": 361.187255859375,
+     "overlap": 0.5137394982762669,
+     "plasticity": 6.089920997619629,
+     "turnover": 0.780952380952381
+    },
+    {
+     "epoch": 5,
+     "diversity": 370.86102294921875,
+     "overlap": 0.49714060243705854,
+     "plasticity": 0.4579874873161316,
+     "turnover": 0.5287356321839081
+    },
+    {
+     "epoch": 10,
+     "diversity": 301.2809753417969,
+     "overlap": 0.5307354793137546,
+     "plasticity": 1.197493314743042,
+     "turnover": 0.8256880733944953
+    },
+    {
+     "epoch": 20,
+     "diversity": 260.80718994140625,
+     "overlap": 0.567005445461263,
+     "plasticity": 1.1008024215698242,
+     "turnover": 0.4
+    }
+   ],
+   "B": [
+    {
+     "epoch": 0,
+     "diversity": 260.80718994140625,
+     "overlap": 0.567005445461263,
+     "plasticity": 0.0,
+     "turnover": 0.0
+    },
+    {
+     "epoch": 1,
+     "diversity": 281.35064697265625,
+     "overlap": 0.5711618972016296,
+     "plasticity": 0.5114598870277405,
+     "turnover": 0.2465753424657534
+    },
+    {
+     "epoch": 5,
+     "diversity": 164.3346710205078,
+     "overlap": 0.5821131106703059,
+     "plasticity": 1.206294059753418,
+     "turnover": 0.6010928961748634
+    },
+    {
+     "epoch": 10,
+     "diversity": 115.87149810791016,
+     "overlap": 0.5371659335203642,
+     "plasticity": 1.534005045890808,
+     "turnover": 0.3694267515923567
+    }
+   ]
+  },
+  {
+   "seed": 42,
+   "task_a": 1,
+   "task_b": 2,
+   "A": [
+    {
+     "epoch": 0,
+     "diversity": 72.4430923461914,
+     "overlap": 0.22570574955231895,
+     "plasticity": null,
+     "turnover": null
+    },
+    {
+     "epoch": 1,
+     "diversity": 304.1949768066406,
+     "overlap": 0.38999495623259556,
+     "plasticity": 5.351156711578369,
+     "turnover": 0.8917748917748918
+    },
+    {
+     "epoch": 5,
+     "diversity": 321.0519714355469,
+     "overlap": 0.37686400087357763,
+     "plasticity": 0.5098196268081665,
+     "turnover": 0.49411764705882355
+    },
+    {
+     "epoch": 10,
+     "diversity": 297.93109130859375,
+     "overlap": 0.4020434953867156,
+     "plasticity": 0.46957266330718994,
+     "turnover": 0.42944785276073616
+    },
+    {
+     "epoch": 20,
+     "diversity": 285.8902587890625,
+     "overlap": 0.4749934930789008,
+     "plasticity": 0.5622344017028809,
+     "turnover": 0.41975308641975306
+    }
+   ],
+   "B": [
+    {
+     "epoch": 0,
+     "diversity": 285.8902587890625,
+     "overlap": 0.4749934930789008,
+     "plasticity": 0.0,
+     "turnover": 0.0
+    },
+    {
+     "epoch": 1,
+     "diversity": 171.71963500976562,
+     "overlap": 0.5301391893464744,
+     "plasticity": 1.0796632766723633,
+     "turnover": 0.47619047619047616
+    },
+    {
+     "epoch": 5,
+     "diversity": 132.219970703125,
+     "overlap": 0.519913724867685,
+     "plasticity": 0.8857324123382568,
+     "turnover": 0.4484848484848485
+    },
+    {
+     "epoch": 10,
+     "diversity": 124.41199493408203,
+     "overlap": 0.5046204114343441,
+     "plasticity": 2.1387922763824463,
+     "turnover": 0.49411764705882355
+    }
+   ]
+  },
+  {
+   "seed": 42,
+   "task_a": 2,
+   "task_b": 3,
+   "A": [
+    {
+     "epoch": 0,
+     "diversity": 96.16079711914062,
+     "overlap": 0.21351873149782863,
+     "plasticity": null,
+     "turnover": null
+    },
+    {
+     "epoch": 1,
+     "diversity": 307.53240966796875,
+     "overlap": 0.5199438757662134,
+     "plasticity": 5.891130447387695,
+     "turnover": 0.7981220657276995
+    },
+    {
+     "epoch": 5,
+     "diversity": 343.46600341796875,
+     "overlap": 0.4646912409144978,
+     "plasticity": 1.0934653282165527,
+     "turnover": 0.8571428571428572
+    },
+    {
+     "epoch": 10,
+     "diversity": 279.1764831542969,
+     "overlap": 0.4627825958403391,
+     "plasticity": 0.5511432886123657,
+     "turnover": 0.5371428571428571
+    },
+    {
+     "epoch": 20,
+     "diversity": 244.6465301513672,
+     "overlap": 0.4541550247940665,
+     "plasticity": 0.9171444773674011,
+     "turnover": 0.46706586826347307
+    }
+   ],
+   "B": [
+    {
+     "epoch": 0,
+     "diversity": 244.6465301513672,
+     "overlap": 0.4541550247940665,
+     "plasticity": 0.0,
+     "turnover": 0.0
+    },
+    {
+     "epoch": 1,
+     "diversity": 185.9067840576172,
+     "overlap": 0.4557729057940949,
+     "plasticity": 1.0154733657836914,
+     "turnover": 0.49411764705882355
+    },
+    {
+     "epoch": 5,
+     "diversity": 208.787353515625,
+     "overlap": 0.49616548601643434,
+     "plasticity": 1.327759027481079,
+     "turnover": 0.6086956521739131
+    },
+    {
+     "epoch": 10,
+     "diversity": 245.9213104248047,
+     "overlap": 0.5359025964006947,
+     "plasticity": 0.8091927766799927,
+     "turnover": 0.5116279069767442
+    }
+   ]
+  },
+  {
+   "seed": 42,
+   "task_a": 3,
+   "task_b": 4,
+   "A": [
+    {
+     "epoch": 0,
+     "diversity": 100.92444610595703,
+     "overlap": 0.20024068068151202,
+     "plasticity": null,
+     "turnover": null
+    },
+    {
+     "epoch": 1,
+     "diversity": 391.55828857421875,
+     "overlap": 0.4623191775934206,
+     "plasticity": 5.417930603027344,
+     "turnover": 0.8256880733944953
+    },
+    {
+     "epoch": 5,
+     "diversity": 374.14080810546875,
+     "overlap": 0.4942256039798588,
+     "plasticity": 0.3739955723285675,
+     "turnover": 0.5371428571428571
+    },
+    {
+     "epoch": 10,
+     "diversity": 360.21063232421875,
+     "overlap": 0.5090444858119121,
+     "plasticity": 0.504868745803833,
+     "turnover": 0.46706586826347307
+    },
+    {
+     "epoch": 20,
+     "diversity": 282.0511169433594,
+     "overlap": 0.5396217196695576,
+     "plasticity": 1.090298056602478,
+     "turnover": 0.41975308641975306
+    }
+   ],
+   "B": [
+    {
+     "epoch": 0,
+     "diversity": 282.0511169433594,
+     "overlap": 0.5396217196695576,
+     "plasticity": 0.0,
+     "turnover": 0.0
+    },
+    {
+     "epoch": 1,
+     "diversity": 173.96527099609375,
+     "overlap": 0.6016884539547739,
+     "plasticity": 1.4382108449935913,
+     "turnover": 0.6310160427807487
+    },
+    {
+     "epoch": 5,
+     "diversity": 125.52900695800781,
+     "overlap": 0.535674247412013,
+     "plasticity": 1.8531618118286133,
+     "turnover": 0.46706586826347307
+    },
+    {
+     "epoch": 10,
+     "diversity": 99.31781005859375,
+     "overlap": 0.502074890510548,
+     "plasticity": 2.1280593872070312,
+     "turnover": 0.304635761589404
+    }
+   ]
+  },
+  {
+   "seed": 42,
+   "task_a": 4,
+   "task_b": 0,
+   "A": [
+    {
+     "epoch": 0,
+     "diversity": 88.83502960205078,
+     "overlap": 0.16219816364080866,
+     "plasticity": null,
+     "turnover": null
+    },
+    {
+     "epoch": 1,
+     "diversity": 363.9108581542969,
+     "overlap": 0.4897657989046959,
+     "plasticity": 5.712894439697266,
+     "turnover": 0.8363636363636364
+    },
+    {
+     "epoch": 5,
+     "diversity": 333.8888244628906,
+     "overlap": 0.5077797791416392,
+     "plasticity": 0.5206337571144104,
+     "turnover": 0.485207100591716
+    },
+    {
+     "epoch": 10,
+     "diversity": 295.3340148925781,
+     "overlap": 0.48585981957948304,
+     "plasticity": 1.0883091688156128,
+     "turnover": 0.7981220657276995
+    },
+    {
+     "epoch": 20,
+     "diversity": 250.0634002685547,
+     "overlap": 0.5397988283740555,
+     "plasticity": 0.7103518843650818,
+     "turnover": 0.46706586826347307
+    }
+   ],
+   "B": [
+    {
+     "epoch": 0,
+     "diversity": 250.0634002685547,
+     "overlap": 0.5397988283740555,
+     "plasticity": 0.0,
+     "turnover": 0.0
+    },
+    {
+     "epoch": 1,
+     "diversity": 189.2326202392578,
+     "overlap": 0.6087696475072751,
+     "plasticity": 1.0130586624145508,
+     "turnover": 0.46706586826347307
+    },
+    {
+     "epoch": 5,
+     "diversity": 180.3627166748047,
+     "overlap": 0.5918677186002212,
+     "plasticity": 1.4903861284255981,
+     "turnover": 0.5371428571428571
+    },
+    {
+     "epoch": 10,
+     "diversity": 171.50747680664062,
+     "overlap": 0.6210732059789829,
+     "plasticity": 1.680166482925415,
+     "turnover": 0.42944785276073616
+    }
+   ]
+  },
+  {
+   "seed": 43,
+   "task_a": 0,
+   "task_b": 1,
+   "A": [
+    {
+     "epoch": 0,
+     "diversity": 91.2773208618164,
+     "overlap": 0.16856224746590778,
+     "plasticity": null,
+     "turnover": null
+    },
+    {
+     "epoch": 1,
+     "diversity": 409.0113525390625,
+     "overlap": 0.4043704855804244,
+     "plasticity": 5.8147101402282715,
+     "turnover": 0.8363636363636364
+    },
+    {
+     "epoch": 5,
+     "diversity": 402.37158203125,
+     "overlap": 0.44463647607906504,
+     "plasticity": 0.3694804310798645,
+     "turnover": 0.5698324022346368
+    },
+    {
+     "epoch": 10,
+     "diversity": 332.1915588378906,
+     "overlap": 0.4747180867497581,
+     "plasticity": 1.0579380989074707,
+     "turnover": 0.6938775510204082
+    },
+    {
+     "epoch": 20,
+     "diversity": 252.79348754882812,
+     "overlap": 0.5311371253298787,
+     "plasticity": 1.0640872716903687,
+     "turnover": 0.5116279069767442
+    }
+   ],
+   "B": [
+    {
+     "epoch": 0,
+     "diversity": 252.79348754882812,
+     "overlap": 0.5311371253298787,
+     "plasticity": 0.0,
+     "turnover": 0.0
+    },
+    {
+     "epoch": 1,
+     "diversity": 275.7886962890625,
+     "overlap": 0.6137526447246057,
+     "plasticity": 0.5598583221435547,
+     "turnover": 0.379746835443038
+    },
+    {
+     "epoch": 5,
+     "diversity": 115.8238296508789,
+     "overlap": 0.5402163058267994,
+     "plasticity": 1.8190395832061768,
+     "turnover": 0.6310160427807487
+    },
+    {
+     "epoch": 10,
+     "diversity": 149.8871307373047,
+     "overlap": 0.5550922988945622,
+     "plasticity": 1.1506279706954956,
+     "turnover": 0.46706586826347307
+    }
+   ]
+  },
+  {
+   "seed": 43,
+   "task_a": 1,
+   "task_b": 2,
+   "A": [
+    {
+     "epoch": 0,
+     "diversity": 82.83028411865234,
+     "overlap": 0.22101350194523106,
+     "plasticity": null,
+     "turnover": null
+    },
+    {
+     "epoch": 1,
+     "diversity": 348.75604248046875,
+     "overlap": 0.35323576450933436,
+     "plasticity": 5.1966962814331055,
+     "turnover": 0.8722466960352423
+    },
+    {
+     "epoch": 5,
+     "diversity": 368.8094177246094,
+     "overlap": 0.4433194529481461,
+     "plasticity": 0.6777197122573853,
+     "turnover": 0.7751196172248804
+    },
+    {
+     "epoch": 10,
+     "diversity": 317.1406555175781,
+     "overlap": 0.426250096629838,
+     "plasticity": 0.637885570526123,
+     "turnover": 0.6526315789473685
+    },
+    {
+     "epoch": 20,
+     "diversity": 283.16180419921875,
+     "overlap": 0.4893625626626477,
+     "plasticity": 0.5996040105819702,
+     "turnover": 0.485207100591716
+    }
+   ],
+   "B": [
+    {
+     "epoch": 0,
+     "diversity": 283.16180419921875,
+     "overlap": 0.4893625626626477,
+     "plasticity": 0.0,
+     "turnover": 0.0
+    },
+    {
+     "epoch": 1,
+     "diversity": 166.5061798095703,
+     "overlap": 0.4705321391592517,
+     "plasticity": 1.4204837083816528,
+     "turnover": 0.5202312138728324
+    },
+    {
+     "epoch": 5,
+     "diversity": 226.61338806152344,
+     "overlap": 0.497814414542135,
+     "plasticity": 0.949982762336731,
+     "turnover": 0.5371428571428571
+    },
+    {
+     "epoch": 10,
+     "diversity": 185.3899688720703,
+     "overlap": 0.46646393563313043,
+     "plasticity": 1.0397849082946777,
+     "turnover": 0.4
+    }
+   ]
+  },
+  {
+   "seed": 43,
+   "task_a": 2,
+   "task_b": 3,
+   "A": [
+    {
+     "epoch": 0,
+     "diversity": 94.96866607666016,
+     "overlap": 0.24149263899378154,
+     "plasticity": null,
+     "turnover": null
+    },
+    {
+     "epoch": 1,
+     "diversity": 331.9992980957031,
+     "overlap": 0.5343026523372215,
+     "plasticity": 5.6007890701293945,
+     "turnover": 0.8202764976958525
+    },
+    {
+     "epoch": 5,
+     "diversity": 217.95626831054688,
+     "overlap": 0.592022198305178,
+     "plasticity": 0.7231165766716003,
+     "turnover": 0.47619047619047616
+    },
+    {
+     "epoch": 10,
+     "diversity": 340.8352355957031,
+     "overlap": 0.4837274264997056,
+     "plasticity": 1.1491849422454834,
+     "turnover": 0.6804123711340206
+    },
+    {
+     "epoch": 20,
+     "diversity": 243.9663543701172,
+     "overlap": 0.47327926545847887,
+     "plasticity": 1.114881992340088,
+     "turnover": 0.5029239766081872
+    }
+   ],
+   "B": [
+    {
+     "epoch": 0,
+     "diversity": 243.9663543701172,
+     "overlap": 0.47327926545847887,
+     "plasticity": 0.0,
+     "turnover": 0.0
+    },
+    {
+     "epoch": 1,
+     "diversity": 138.15457153320312,
+     "overlap": 0.4770845681406494,
+     "plasticity": 1.1317076683044434,
+     "turnover": 0.5029239766081872
+    },
+    {
+     "epoch": 5,
+     "diversity": 161.50741577148438,
+     "overlap": 0.4733415267721243,
+     "plasticity": 0.9728111624717712,
+     "turnover": 0.45783132530120485
+    },
+    {
+     "epoch": 10,
+     "diversity": 165.89767456054688,
+     "overlap": 0.520525509469146,
+     "plasticity": 1.1627388000488281,
+     "turnover": 0.5934065934065934
+    }
+   ]
+  },
+  {
+   "seed": 43,
+   "task_a": 3,
+   "task_b": 4,
+   "A": [
+    {
+     "epoch": 0,
+     "diversity": 103.82536315917969,
+     "overlap": 0.18297044954572625,
+     "plasticity": null,
+     "turnover": null
+    },
+    {
+     "epoch": 1,
+     "diversity": 359.905029296875,
+     "overlap": 0.45894326975501953,
+     "plasticity": 5.566643238067627,
+     "turnover": 0.896551724137931
+    },
+    {
+     "epoch": 5,
+     "diversity": 374.98583984375,
+     "overlap": 0.5326615296051622,
+     "plasticity": 0.5941335558891296,
+     "turnover": 0.7751196172248804
+    },
+    {
+     "epoch": 10,
+     "diversity": 267.11895751953125,
+     "overlap": 0.5159265666996464,
+     "plasticity": 1.3332648277282715,
+     "turnover": 0.8037383177570093
+    },
+    {
+     "epoch": 20,
+     "diversity": 256.1960754394531,
+     "overlap": 0.5538972292031007,
+     "plasticity": 0.6588369011878967,
+     "turnover": 0.46706586826347307
+    }
+   ],
+   "B": [
+    {
+     "epoch": 0,
+     "diversity": 256.1960754394531,
+     "overlap": 0.5538972292031007,
+     "plasticity": 0.0,
+     "turnover": 0.0
+    },
+    {
+     "epoch": 1,
+     "diversity": 127.4551010131836,
+     "overlap": 0.49152809887836374,
+     "plasticity": 1.7968900203704834,
+     "turnover": 0.7572815533980582
+    },
+    {
+     "epoch": 5,
+     "diversity": 177.9020538330078,
+     "overlap": 0.5392775824011382,
+     "plasticity": 1.221689224243164,
+     "turnover": 0.5287356321839081
+    },
+    {
+     "epoch": 10,
+     "diversity": 120.81029510498047,
+     "overlap": 0.5527455287156523,
+     "plasticity": 1.108344316482544,
+     "turnover": 0.2702702702702703
+    }
+   ]
+  },
+  {
+   "seed": 43,
+   "task_a": 4,
+   "task_b": 0,
+   "A": [
+    {
+     "epoch": 0,
+     "diversity": 93.03568267822266,
+     "overlap": 0.18173511104878284,
+     "plasticity": null,
+     "turnover": null
+    },
+    {
+     "epoch": 1,
+     "diversity": 353.97503662109375,
+     "overlap": 0.48937447470535766,
+     "plasticity": 5.920478820800781,
+     "turnover": 0.8310502283105023
+    },
+    {
+     "epoch": 5,
+     "diversity": 385.0254211425781,
+     "overlap": 0.4851021900693338,
+     "plasticity": 0.4778377413749695,
+     "turnover": 0.6310160427807487
+    },
+    {
+     "epoch": 10,
+     "diversity": 365.5860900878906,
+     "overlap": 0.48494085945332605,
+     "plasticity": 0.3557104468345642,
+     "turnover": 0.4390243902439024
+    },
+    {
+     "epoch": 20,
+     "diversity": 250.8861083984375,
+     "overlap": 0.5298889679623052,
+     "plasticity": 1.2752113342285156,
+     "turnover": 0.42944785276073616
+    }
+   ],
+   "B": [
+    {
+     "epoch": 0,
+     "diversity": 250.8861083984375,
+     "overlap": 0.5298889679623052,
+     "plasticity": 0.0,
+     "turnover": 0.0
+    },
+    {
+     "epoch": 1,
+     "diversity": 185.1312255859375,
+     "overlap": 0.5720197950525004,
+     "plasticity": 1.4782201051712036,
+     "turnover": 0.5202312138728324
+    },
+    {
+     "epoch": 5,
+     "diversity": 181.7070770263672,
+     "overlap": 0.577212465300506,
+     "plasticity": 1.350913405418396,
+     "turnover": 0.49411764705882355
+    },
+    {
+     "epoch": 10,
+     "diversity": 153.1365203857422,
+     "overlap": 0.5987071211872403,
+     "plasticity": 1.2303969860076904,
+     "turnover": 0.379746835443038
+    }
+   ]
+  },
+  {
+   "seed": 44,
+   "task_a": 0,
+   "task_b": 1,
+   "A": [
+    {
+     "epoch": 0,
+     "diversity": 90.7356948852539,
+     "overlap": 0.2412694623070725,
+     "plasticity": null,
+     "turnover": null
+    },
+    {
+     "epoch": 1,
+     "diversity": 394.45806884765625,
+     "overlap": 0.4295255375359129,
+     "plasticity": 6.236836910247803,
+     "turnover": 0.8672566371681416
+    },
+    {
+     "epoch": 5,
+     "diversity": 390.7334899902344,
+     "overlap": 0.454012251841718,
+     "plasticity": 0.600035548210144,
+     "turnover": 0.6526315789473685
+    },
+    {
+     "epoch": 10,
+     "diversity": 348.3465576171875,
+     "overlap": 0.47941402892716434,
+     "plasticity": 0.4513968229293823,
+     "turnover": 0.4484848484848485
+    },
+    {
+     "epoch": 20,
+     "diversity": 233.0838623046875,
+     "overlap": 0.5124608610042852,
+     "plasticity": 1.2686643600463867,
+     "turnover": 0.389937106918239
+    }
+   ],
+   "B": [
+    {
+     "epoch": 0,
+     "diversity": 233.0838623046875,
+     "overlap": 0.5124608610042852,
+     "plasticity": 0.0,
+     "turnover": 0.0
+    },
+    {
+     "epoch": 1,
+     "diversity": 196.57907104492188,
+     "overlap": 0.582156303919778,
+     "plasticity": 0.7181673645973206,
+     "turnover": 0.4
+    },
+    {
+     "epoch": 5,
+     "diversity": 135.58551025390625,
+     "overlap": 0.5458957260694625,
+     "plasticity": 1.9221794605255127,
+     "turnover": 0.5029239766081872
+    },
+    {
+     "epoch": 10,
+     "diversity": 137.93455505371094,
+     "overlap": 0.5769694408485723,
+     "plasticity": 1.0038435459136963,
+     "turnover": 0.3589743589743589
+    }
+   ]
+  },
+  {
+   "seed": 44,
+   "task_a": 1,
+   "task_b": 2,
+   "A": [
+    {
+     "epoch": 0,
+     "diversity": 91.81150817871094,
+     "overlap": 0.21895698626874074,
+     "plasticity": null,
+     "turnover": null
+    },
+    {
+     "epoch": 1,
+     "diversity": 397.99005126953125,
+     "overlap": 0.32941165024627234,
+     "plasticity": 5.527321815490723,
+     "turnover": 0.7572815533980582
+    },
+    {
+     "epoch": 5,
+     "diversity": 283.2843322753906,
+     "overlap": 0.34724455083701117,
+     "plasticity": 0.8042015433311462,
+     "turnover": 0.6804123711340206
+    },
+    {
+     "epoch": 10,
+     "diversity": 286.084716796875,
+     "overlap": 0.4807651254859177,
+     "plasticity": 0.8469328880310059,
+     "turnover": 0.7751196172248804
+    },
+    {
+     "epoch": 20,
+     "diversity": 232.4214324951172,
+     "overlap": 0.43957874815057324,
+     "plasticity": 1.3001298904418945,
+     "turnover": 0.7632850241545894
+    }
+   ],
+   "B": [
+    {
+     "epoch": 0,
+     "diversity": 232.4214324951172,
+     "overlap": 0.43957874815057324,
+     "plasticity": 0.0,
+     "turnover": 0.0
+    },
+    {
+     "epoch": 1,
+     "diversity": 208.98907470703125,
+     "overlap": 0.5855926454937702,
+     "plasticity": 1.056748867034912,
+     "turnover": 0.4
+    },
+    {
+     "epoch": 5,
+     "diversity": 132.4281768798828,
+     "overlap": 0.4883739214427509,
+     "plasticity": 1.6858932971954346,
+     "turnover": 0.49411764705882355
+    },
+    {
+     "epoch": 10,
+     "diversity": 124.36507415771484,
+     "overlap": 0.4960998517572616,
+     "plasticity": 1.2611384391784668,
+     "turnover": 0.41975308641975306
+    }
+   ]
+  },
+  {
+   "seed": 44,
+   "task_a": 2,
+   "task_b": 3,
+   "A": [
+    {
+     "epoch": 0,
+     "diversity": 97.29827117919922,
+     "overlap": 0.22316603547974598,
+     "plasticity": null,
+     "turnover": null
+    },
+    {
+     "epoch": 1,
+     "diversity": 338.6672058105469,
+     "overlap": 0.6112807147370763,
+     "plasticity": 5.141417026519775,
+     "turnover": 0.8363636363636364
+    },
+    {
+     "epoch": 5,
+     "diversity": 314.5104675292969,
+     "overlap": 0.63232495150434,
+     "plasticity": 0.3830087184906006,
+     "turnover": 0.3589743589743589
+    },
+    {
+     "epoch": 10,
+     "diversity": 292.7269592285156,
+     "overlap": 0.499297566869221,
+     "plasticity": 1.0935883522033691,
+     "turnover": 0.8093023255813954
+    },
+    {
+     "epoch": 20,
+     "diversity": 253.25950622558594,
+     "overlap": 0.5505323534070483,
+     "plasticity": 0.7132595777511597,
+     "turnover": 0.3694267515923567
+    }
+   ],
+   "B": [
+    {
+     "epoch": 0,
+     "diversity": 253.25950622558594,
+     "overlap": 0.5505323534070483,
+     "plasticity": 0.0,
+     "turnover": 0.0
+    },
+    {
+     "epoch": 1,
+     "diversity": 117.03880310058594,
+     "overlap": 0.4027656274961363,
+     "plasticity": 2.004072666168213,
+     "turnover": 0.5202312138728324
+    },
+    {
+     "epoch": 5,
+     "diversity": 160.21636962890625,
+     "overlap": 0.5116837359254587,
+     "plasticity": 1.4409780502319336,
+     "turnover": 0.485207100591716
+    },
+    {
+     "epoch": 10,
+     "diversity": 155.5039825439453,
+     "overlap": 0.5474292370913202,
+     "plasticity": 2.9875903129577637,
+     "turnover": 0.5116279069767442
+    }
+   ]
+  },
+  {
+   "seed": 44,
+   "task_a": 3,
+   "task_b": 4,
+   "A": [
+    {
+     "epoch": 0,
+     "diversity": 84.39958953857422,
+     "overlap": 0.17120051418259494,
+     "plasticity": null,
+     "turnover": null
+    },
+    {
+     "epoch": 1,
+     "diversity": 405.1904602050781,
+     "overlap": 0.49195403519622083,
+     "plasticity": 5.5836639404296875,
+     "turnover": 0.8202764976958525
+    },
+    {
+     "epoch": 5,
+     "diversity": 347.3560485839844,
+     "overlap": 0.5363718292223523,
+     "plasticity": 0.43721097707748413,
+     "turnover": 0.5371428571428571
+    },
+    {
+     "epoch": 10,
+     "diversity": 350.219482421875,
+     "overlap": 0.5148105950769243,
+     "plasticity": 0.6702249050140381,
+     "turnover": 0.6804123711340206
+    },
+    {
+     "epoch": 20,
+     "diversity": 266.47613525390625,
+     "overlap": 0.5419456016628708,
+     "plasticity": 0.8480316400527954,
+     "turnover": 0.389937106918239
+    }
+   ],
+   "B": [
+    {
+     "epoch": 0,
+     "diversity": 266.47613525390625,
+     "overlap": 0.5419456016628708,
+     "plasticity": 0.0,
+     "turnover": 0.0
+    },
+    {
+     "epoch": 1,
+     "diversity": 153.89065551757812,
+     "overlap": 0.6717295272797735,
+     "plasticity": 2.039414167404175,
+     "turnover": 0.72
+    },
+    {
+     "epoch": 5,
+     "diversity": 90.91598510742188,
+     "overlap": 0.5455887082493752,
+     "plasticity": 3.1000585556030273,
+     "turnover": 0.6455026455026456
+    },
+    {
+     "epoch": 10,
+     "diversity": 76.60677337646484,
+     "overlap": 0.5050220548665386,
+     "plasticity": 1.7840900421142578,
+     "turnover": 0.23448275862068968
+    }
+   ]
+  },
+  {
+   "seed": 44,
+   "task_a": 4,
+   "task_b": 0,
+   "A": [
+    {
+     "epoch": 0,
+     "diversity": 63.69313430786133,
+     "overlap": 0.16003308022085724,
+     "plasticity": null,
+     "turnover": null
+    },
+    {
+     "epoch": 1,
+     "diversity": 289.7921142578125,
+     "overlap": 0.5107101352781778,
+     "plasticity": 6.763467788696289,
+     "turnover": 0.8148148148148149
+    },
+    {
+     "epoch": 5,
+     "diversity": 256.3286437988281,
+     "overlap": 0.5525457389249485,
+     "plasticity": 0.5930219888687134,
+     "turnover": 0.4390243902439024
+    },
+    {
+     "epoch": 10,
+     "diversity": 345.85748291015625,
+     "overlap": 0.5026460336797006,
+     "plasticity": 1.172133207321167,
+     "turnover": 0.6871794871794872
+    },
+    {
+     "epoch": 20,
+     "diversity": 229.15499877929688,
+     "overlap": 0.5071927266409004,
+     "plasticity": 0.9460564851760864,
+     "turnover": 0.4
+    }
+   ],
+   "B": [
+    {
+     "epoch": 0,
+     "diversity": 229.15499877929688,
+     "overlap": 0.5071927266409004,
+     "plasticity": 0.0,
+     "turnover": 0.0
+    },
+    {
+     "epoch": 1,
+     "diversity": 228.5353546142578,
+     "overlap": 0.5775547246716013,
+     "plasticity": 1.1994273662567139,
+     "turnover": 0.45783132530120485
+    },
+    {
+     "epoch": 5,
+     "diversity": 178.95635986328125,
+     "overlap": 0.545354733305182,
+     "plasticity": 1.222348690032959,
+     "turnover": 0.485207100591716
+    },
+    {
+     "epoch": 10,
+     "diversity": 192.2047119140625,
+     "overlap": 0.5620750197050217,
+     "plasticity": 1.0546140670776367,
+     "turnover": 0.5202312138728324
+    }
+   ]
+  }
+ ],
+ "contrasts": {
+  "early_vs_late_plasticity": {
+   "mean_diff": 4.776364235083262,
+   "ci95": [
+    4.262346142530442,
+    5.532207241654397
+   ],
+   "fraction_positive": 1.0
+  },
+  "early_vs_late_turnover": {
+   "mean_diff": 0.37352575773640256,
+   "ci95": [
+    0.10717112638893761,
+    0.47546532653673523
+   ],
+   "fraction_positive": 0.9333333333333333
+  },
+  "invasion_vs_preB_plasticity": {
+   "mean_diff": 0.2862174391746521,
+   "ci95": [
+    -0.5757465958595276,
+    1.2560123920440673
+   ],
+   "fraction_positive": 0.7333333333333333
+  },
+  "invasion_vs_preB_turnover": {
+   "mean_diff": 0.040729740331835164,
+   "ci95": [
+    -0.28983389583746944,
+    0.31611637030024947
+   ],
+   "fraction_positive": 0.6666666666666666
+  }
+ },
+ "protocol": {
+  "A_checkpoints": [
+   0,
+   1,
+   5,
+   10,
+   20
+  ],
+  "B_checkpoints": [
+   0,
+   1,
+   5,
+   10
+  ],
+  "active_definition": "top quartile resident feature strength",
+  "plasticity": "mean abs log-strength change",
+  "turnover": "1-Jaccard active sets"
+ },
+ "_meta": {
+  "synthetic": false,
+  "experiment": "A7_succession_stages",
+  "elapsed_s": 333.1830656528473
+ }
+}

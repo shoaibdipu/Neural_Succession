@@ -1,0 +1,217 @@
+{
+ "setting": "Split-CIFAR-10 / ResNet-18 / 20 directed pairs / replay buffers 0..1000",
+ "threshold": "0.1 x R_AA",
+ "raw_Mstar": {
+  "pearson_r": 0.012,
+  "p": 0.9609,
+  "spearman_rho": 0.11
+ },
+ "initial_efficiency": {
+  "pearson_r": -0.423,
+  "p": 0.0629,
+  "spearman_rho": -0.457
+ },
+ "script": "succession/E4_v3.py",
+ "rows": [
+  {
+   "pair": "T0→T1",
+   "rho_pre": 0.123,
+   "R_AA": 0.956,
+   "M_star": 75,
+   "M_star_norm": 0.75,
+   "forgetting_M0": 0.249,
+   "eta_M0_to_M25": 0.00368,
+   "M_star_fix": 75
+  },
+  {
+   "pair": "T0→T2",
+   "rho_pre": 0.066,
+   "R_AA": 0.956,
+   "M_star": 100,
+   "M_star_norm": 1.0,
+   "forgetting_M0": 0.291,
+   "eta_M0_to_M25": 0.00542,
+   "M_star_fix": 100
+  },
+  {
+   "pair": "T0→T3",
+   "rho_pre": -0.147,
+   "R_AA": 0.956,
+   "M_star": 150,
+   "M_star_norm": 1.5,
+   "forgetting_M0": 0.4,
+   "eta_M0_to_M25": 0.00582,
+   "M_star_fix": 150
+  },
+  {
+   "pair": "T0→T4",
+   "rho_pre": 0.284,
+   "R_AA": 0.956,
+   "M_star": 75,
+   "M_star_norm": 0.75,
+   "forgetting_M0": 0.17,
+   "eta_M0_to_M25": 0.00268,
+   "M_star_fix": 75
+  },
+  {
+   "pair": "T1→T0",
+   "rho_pre": 0.118,
+   "R_AA": 0.814,
+   "M_star": 175,
+   "M_star_norm": 0.903,
+   "forgetting_M0": 0.23,
+   "eta_M0_to_M25": 0.00054,
+   "M_star_fix": 175
+  },
+  {
+   "pair": "T1→T2",
+   "rho_pre": 0.18,
+   "R_AA": 0.814,
+   "M_star": 175,
+   "M_star_norm": 0.903,
+   "forgetting_M0": 0.162,
+   "eta_M0_to_M25": 0.00166,
+   "M_star_fix": 75
+  },
+  {
+   "pair": "T1→T3",
+   "rho_pre": 0.002,
+   "R_AA": 0.814,
+   "M_star": 200,
+   "M_star_norm": 1.032,
+   "forgetting_M0": 0.313,
+   "eta_M0_to_M25": 0.00292,
+   "M_star_fix": 100
+  },
+  {
+   "pair": "T1→T4",
+   "rho_pre": 0.088,
+   "R_AA": 0.814,
+   "M_star": 225,
+   "M_star_norm": 1.161,
+   "forgetting_M0": 0.211,
+   "eta_M0_to_M25": 0.00102,
+   "M_star_fix": 100
+  },
+  {
+   "pair": "T2→T0",
+   "rho_pre": 0.163,
+   "R_AA": 0.887,
+   "M_star": 325,
+   "M_star_norm": 1.444,
+   "forgetting_M0": 0.294,
+   "eta_M0_to_M25": -0.00198,
+   "M_star_fix": 325
+  },
+  {
+   "pair": "T2→T1",
+   "rho_pre": 0.127,
+   "R_AA": 0.887,
+   "M_star": 200,
+   "M_star_norm": 0.889,
+   "forgetting_M0": 0.226,
+   "eta_M0_to_M25": 0.00302,
+   "M_star_fix": 150
+  },
+  {
+   "pair": "T2→T3",
+   "rho_pre": -0.003,
+   "R_AA": 0.887,
+   "M_star": 200,
+   "M_star_norm": 0.889,
+   "forgetting_M0": 0.391,
+   "eta_M0_to_M25": 0.00902,
+   "M_star_fix": 100
+  },
+  {
+   "pair": "T2→T4",
+   "rho_pre": 0.123,
+   "R_AA": 0.887,
+   "M_star": 175,
+   "M_star_norm": 0.778,
+   "forgetting_M0": 0.308,
+   "eta_M0_to_M25": 0.00424,
+   "M_star_fix": 125
+  },
+  {
+   "pair": "T3→T0",
+   "rho_pre": -0.057,
+   "R_AA": 0.901,
+   "M_star": 75,
+   "M_star_norm": 1.2,
+   "forgetting_M0": 0.238,
+   "eta_M0_to_M25": 0.00254,
+   "M_star_fix": 75
+  },
+  {
+   "pair": "T3→T1",
+   "rho_pre": -0.03,
+   "R_AA": 0.901,
+   "M_star": 50,
+   "M_star_norm": 0.8,
+   "forgetting_M0": 0.457,
+   "eta_M0_to_M25": 0.01346,
+   "M_star_fix": 50
+  },
+  {
+   "pair": "T3→T2",
+   "rho_pre": 0.077,
+   "R_AA": 0.901,
+   "M_star": 50,
+   "M_star_norm": 0.8,
+   "forgetting_M0": 0.354,
+   "eta_M0_to_M25": 0.00928,
+   "M_star_fix": 50
+  },
+  {
+   "pair": "T3→T4",
+   "rho_pre": 0.001,
+   "R_AA": 0.901,
+   "M_star": 75,
+   "M_star_norm": 1.2,
+   "forgetting_M0": 0.354,
+   "eta_M0_to_M25": 0.00046,
+   "M_star_fix": 75
+  },
+  {
+   "pair": "T4→T0",
+   "rho_pre": 0.351,
+   "R_AA": 0.926,
+   "M_star": 75,
+   "M_star_norm": 0.667,
+   "forgetting_M0": 0.177,
+   "eta_M0_to_M25": 0.00096,
+   "M_star_fix": 75
+  },
+  {
+   "pair": "T4→T1",
+   "rho_pre": 0.103,
+   "R_AA": 0.926,
+   "M_star": 100,
+   "M_star_norm": 0.889,
+   "forgetting_M0": 0.321,
+   "eta_M0_to_M25": 0.0052,
+   "M_star_fix": 100
+  },
+  {
+   "pair": "T4→T2",
+   "rho_pre": 0.095,
+   "R_AA": 0.926,
+   "M_star": 50,
+   "M_star_norm": 0.444,
+   "forgetting_M0": 0.287,
+   "eta_M0_to_M25": 0.00672,
+   "M_star_fix": 50
+  },
+  {
+   "pair": "T4→T3",
+   "rho_pre": 0.076,
+   "R_AA": 0.926,
+   "M_star": 225,
+   "M_star_norm": 2.0,
+   "forgetting_M0": 0.348,
+   "eta_M0_to_M25": 0.00766,
+   "M_star_fix": 225
+  }
+ ]
+}
