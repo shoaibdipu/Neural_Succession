@@ -1,0 +1,74 @@
+protocol_version: 2026-09-19-final-onepass-v5
+compatibility:
+  probe_examples: 256
+  shuffled_references_final: 20
+  shuffled_references_exploratory: 10
+  source_split: incoming_training_only
+  transform: deterministic_eval_transform
+  official_external_only: [spot, gnr, ntk_overlap, cka]
+  inhouse_transparent_signals: [raw_probe_error, grad_cosine, activation_covariance_similarity, one_step_loss_change]
+representation_counterfactual:
+  resident_states_minimum: 3
+  max_contexts_exploratory: 2
+  max_contexts_final_cifar10: 3
+  cifar10_context_ceiling: 3
+  scratch_residents_share_initialization: true
+  pretrained_secondary_state: imagenet_resnet18_then_A
+  pretrained_is_primary_confirmatory: false
+  checkpoint_selection: resident_training_validation_only_including_epoch0
+  resident_validation_match_tolerance: 0.02
+  primary_regression: "forgetting ~ rho + C(pair) + C(seed_if_multiseed)"
+  quality_robustness_regression: "forgetting ~ rho + resident_A_val_acc + C(pair) + C(seed_if_multiseed)"
+  final_confirmation_seeds: 5
+protection:
+  methods: [fine_tune, ewc_dr, derpp]
+  heldout_group: incoming_task
+  incremental_tests: [baseline_forgetting_plus_signal, baseline_forgetting_plus_existing_signal_plus_rho]
+oracle_replay:
+  q_grid: [0.0, 0.1, 0.25, 0.5, 0.75]
+  incoming_accuracy_floor_fraction_of_ft: 0.95
+  fine_tune_reference: once_per_pair_seed_reused_across_q
+  no_unconstrained_fallback: true
+  controller_calibration: leave_one_incoming_task_out
+matched_derpp:
+  memory_capacity: 500
+  replay_batch_size: 64
+  derpp_alpha: 0.5
+  derpp_beta: 0.5
+  first_task_buffer: online_reservoir_preupdate_logits
+  q_definition: "loss mixture: (1-q)*current + q*DERpp_replay, normalized by 1-q_ref"
+  q_reference: 0.5
+  calibrated_q0_required_for_final: [rho, slt]
+  controllers: [fixed, fixed_compute_matched, rho, safety, slt]
+  safety_controller: optimizer_adjusted_first_order_resident_safety
+  safety_every_primary: 1
+  safety_every_efficiency_ablation: 4
+  gradient_reuse: exact_endpoint_mixture_gradient
+  second_representation_replication: imagenet_resnet18_initialization
+  cost_reporting:
+    primary_mechanism_comparison: slt_vs_fixed_compute_matched
+    deployment_comparison: slt_vs_fixed_standard_derpp
+    report_wall_clock: true
+    report_net_extra_backward_equiv: true
+  final_confirmation_seeds: 5
+  primary_intervention_criterion:
+    min_acc_gain_absolute: 0.01
+    acc_paired_ci_should_exclude_zero_for_confirmed_gain: true
+    mean_bwt_must_not_worsen: true
+class_il:
+  task_oracle_at_eval: false
+  mask_future_untrained_logits: true
+  evaluation_classes: classes_seen_through_current_step
+  compatibility_estimator: unchanged_from_task_il
+statistics:
+  transition_unit: task_pair
+  paired_seeds: true
+  paired_seed_ci: 0.95
+  task_clustered_uncertainty: true
+  prediction_primary_split: leave_one_incoming_task_out
+archival_overleaf:
+  preserve_completed_results: true
+  do_not_overwrite_failed_frozen_confirmations: true
+  known_numeric_check:
+    coexistence_rho_auc_archive: 0.921865889212828
+    uploaded_manuscript_value_needs_resolution: 0.927
